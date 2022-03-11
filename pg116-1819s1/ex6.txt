@@ -1,0 +1,22 @@
+1.
+
+struct node* ntree__find(struct ntree_t ntr);
+
+2.
+
+pas de modification seul en node_t.value qui devient de type(&): void*.
+POUR les fonctions: (des que sait la 1er reponse de la question ; on deduit la deuxieme)
+>>dans node.h:
+2ieme: $2 de type void*.
+4ieme: retour fonctionnel de type void*.
+2/header:: ntree.h
+(headers seulement car specifie,fixe,evite les erreurs de lediteur de liens au niveau de la signature de chaque fonction/procedure eventuellement rpertoriees dans la 4ieme classe(biblios. dynamique derivees de la libc(printf/malloc/realloc..) ou dans les .o en tant que symbole d'indentification pour execution par empilation de l'identificateur car le nom n'existe pas dans les a.out,cest pour cela en general le nom d'une fonction represente son adresse effective comme pointeur a manipuler brievement(restrictions pour non SEGFAULT) comme ~les void*.(voir complements td1/assembleur/local/bin/exec_extern__makeMAKEFILE/../../*)).
+
+>>> ntree_build :$1 sera de type void* (c'est la racine //./////).
+>>> attention a quelques pieges comme size_t (fait expres###) car la longueur depth ou bien la ss longueur ce quon appel le degre d'un noued(=>(tree depth)==(degree racine) en LISP --exemple d'expression LOGIQUE)((en algorithmique))) est relatif au noeud lui meme qui encapsule l'integralite du contenuvoid* que ce soit passage d'un void*(PREND TOUS LES TYPES///) d'un structu person* par exemple pointant vers un groupement de segment de donnees aussi des pointeurs eventuellement donc un tas de donnees.
+
+
+
+
+
+FIN QUESTIONS_COURS session --2018______2019.
