@@ -32,7 +32,7 @@ struct ntree_t * ntree__build(int x, struct node_t * nodes[], size_t size){
   int i=1;
   int j=0;
   while(i<(int)size){
-    ntr->_root->children[i][j]=*nodes[i];
+    ntr->_root->children[i][j]=nodes[i];
     j++;i++;
   }
   return ntr;
