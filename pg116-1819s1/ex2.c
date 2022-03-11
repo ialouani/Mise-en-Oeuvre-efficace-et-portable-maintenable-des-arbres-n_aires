@@ -42,9 +42,10 @@ void free2(struct ntree_t* ntree){
     children__next(current2);
     free2(current2);
   }
-  return free2(ntree__root(ntree));
+  free2(ntree__root(ntree));
   free(ntree__root(ntree));
   free(ntree);
+  return;
 }
   
     
